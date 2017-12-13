@@ -9,7 +9,7 @@ int main ()
 {
  setlocale(LC_ALL,"Russian");
     int k;
-    printf ("Введите натуральное число k для сдвига: ");
+    printf ("Р’РІРµРґРёС‚Рµ РЅР°С‚СѓСЂР°Р»СЊРЅРѕ С‡РёСЃР»Рѕ k РґР»СЏ СЃРґРІРёРіР°: ");
     scanf_s ("%d", &k);
     getchar (); 
     if (k < 1) return 0;
@@ -35,7 +35,7 @@ void encrypter (int k)
 			fputc(y,fp2); 
         x = getc(fp1);
     }
-    printf ("Шифрование завершено.\n");
+    printf ("РЁРёС„СЂРѕРІР°РЅРёРµ Р·Р°РІРµСЂС€РµРЅРѕ.\n");
     fclose (fp1);
     fclose (fp2);
 }
@@ -81,7 +81,7 @@ void decipher ()
 } 
 
 }
-	printf ("Частотный анализ завершен.\n");
+	printf ("Р§Р°СЃС‚РѕС‚РЅС‹Р№ Р°РЅР°Р»РёР· Р·Р°РІРµСЂС€РµРЅ.\n");
     fclose (fp1);
     fclose (fp2);
     fclose (fp3);
